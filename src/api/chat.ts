@@ -2,7 +2,15 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export async function chat(message: string) {
   try {
-    const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_AI_API_KEY || "");
+    // Get the API key from environment variables
+    const apiKey = import.meta.env.VITE_GOOGLE_AI_API_KEY;
+    
+    if (!apiKey) {
+      console.error("Google AI API key is not set");
+      throw new Error("API key not configured");
+    }
+
+    const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     
     const prompt = `You are a helpful Web3 assistant. Please provide accurate and helpful information about: ${message}`;

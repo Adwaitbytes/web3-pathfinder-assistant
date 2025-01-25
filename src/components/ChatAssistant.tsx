@@ -37,7 +37,9 @@ export const ChatAssistant = () => {
       console.error("Chat error:", error);
       toast({
         title: "Error",
-        description: "Failed to get response from AI assistant",
+        description: error instanceof Error 
+          ? error.message 
+          : "Failed to get response from AI assistant. Please ensure the API key is configured correctly.",
         variant: "destructive",
       });
     } finally {
