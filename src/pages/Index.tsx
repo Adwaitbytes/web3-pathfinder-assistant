@@ -19,8 +19,6 @@ const learningModules = [
         <li>Immutability</li>
         <li>Transparency</li>
       </ul>
-      <h3>How Blockchain Works</h3>
-      <p>Each block contains a timestamp and a link to the previous block, forming a chain of information...</p>
     `,
   },
   {
@@ -29,13 +27,7 @@ const learningModules = [
     description: "Understanding digital currencies and tokens",
     content: `
       <h2>What is Cryptocurrency?</h2>
-      <p>Cryptocurrencies are digital or virtual currencies that use cryptography for security...</p>
-      <h3>Types of Cryptocurrencies:</h3>
-      <ul>
-        <li>Bitcoin (BTC)</li>
-        <li>Ethereum (ETH)</li>
-        <li>Other Altcoins</li>
-      </ul>
+      <p>Cryptocurrencies are digital assets designed to work as a medium of exchange.</p>
     `,
   },
   {
@@ -44,15 +36,117 @@ const learningModules = [
     description: "Learn how to secure your digital assets",
     content: `
       <h2>Crypto Wallet Security</h2>
-      <p>Protecting your digital assets is crucial in the Web3 space...</p>
-      <h3>Best Practices:</h3>
-      <ul>
-        <li>Use Hardware Wallets</li>
-        <li>Backup Your Seed Phrase</li>
-        <li>Enable 2FA</li>
-      </ul>
+      <p>Protecting your digital assets is crucial in the Web3 space.</p>
     `,
   },
+  {
+    id: 4,
+    title: "Smart Contracts",
+    description: "Understanding automated, self-executing contracts",
+    content: `
+      <h2>Smart Contracts Explained</h2>
+      <p>Smart contracts are self-executing contracts with terms directly written into code.</p>
+    `,
+  },
+  {
+    id: 5,
+    title: "DeFi Fundamentals",
+    description: "Introduction to Decentralized Finance",
+    content: `
+      <h2>What is DeFi?</h2>
+      <p>DeFi refers to financial services using smart contracts on blockchains.</p>
+    `,
+  },
+  {
+    id: 6,
+    title: "NFTs Explained",
+    description: "Understanding Non-Fungible Tokens",
+    content: `
+      <h2>NFT Basics</h2>
+      <p>NFTs are unique digital assets that represent ownership of specific items.</p>
+    `,
+  },
+  {
+    id: 7,
+    title: "Web3 Architecture",
+    description: "Technical overview of Web3 infrastructure",
+    content: `
+      <h2>Web3 Stack</h2>
+      <p>Learn about the technical components that make Web3 applications possible.</p>
+    `,
+  },
+  {
+    id: 8,
+    title: "Consensus Mechanisms",
+    description: "Understanding PoW and PoS",
+    content: `
+      <h2>Blockchain Consensus</h2>
+      <p>Explore different methods for achieving agreement in decentralized networks.</p>
+    `,
+  },
+  {
+    id: 9,
+    title: "Tokenomics",
+    description: "Token Economics and Design",
+    content: `
+      <h2>Token Economics</h2>
+      <p>Understanding the economic models behind cryptocurrency tokens.</p>
+    `,
+  },
+  {
+    id: 10,
+    title: "DAOs",
+    description: "Decentralized Autonomous Organizations",
+    content: `
+      <h2>DAO Fundamentals</h2>
+      <p>Learn about community-led organizations on the blockchain.</p>
+    `,
+  },
+  {
+    id: 11,
+    title: "Crypto Trading",
+    description: "Basic trading concepts and strategies",
+    content: `
+      <h2>Trading Fundamentals</h2>
+      <p>Understanding cryptocurrency markets and trading basics.</p>
+    `,
+  },
+  {
+    id: 12,
+    title: "Layer 2 Solutions",
+    description: "Scaling blockchain networks",
+    content: `
+      <h2>Scaling Solutions</h2>
+      <p>Learn about different approaches to blockchain scaling.</p>
+    `,
+  },
+  {
+    id: 13,
+    title: "Crypto Security",
+    description: "Advanced security practices",
+    content: `
+      <h2>Security Best Practices</h2>
+      <p>Protecting your assets with advanced security measures.</p>
+    `,
+  },
+  {
+    id: 14,
+    title: "Web3 Development",
+    description: "Building on blockchain",
+    content: `
+      <h2>Development Basics</h2>
+      <p>Introduction to Web3 development tools and frameworks.</p>
+    `,
+  },
+  {
+    id: 15,
+    title: "Crypto Regulations",
+    description: "Legal aspects of cryptocurrency",
+    content: `
+      <h2>Regulatory Landscape</h2>
+      <p>Understanding the legal framework around cryptocurrencies.</p>
+    `,
+  }
 ];
 
 const Index = () => {
